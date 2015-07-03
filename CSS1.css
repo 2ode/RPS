@@ -1,0 +1,55 @@
+* {
+		background-image:url("WaterReflection.jpg");		
+		background-color:teal;
+		font-family:Verdana;
+		font-size:20px;
+}
+
+div {
+		border-radius:5px;
+}
+
+#header {
+				z-index:1;
+				position:fixed;
+				margin:5px;
+				padding:5px;
+				border:2px solid red ;
+				width:97.3%;
+				height:20px;
+				background-color:Orange;
+				
+}
+
+.left {
+				position:relative;
+				float:left;
+				margin:50px 5px 5px 5px;
+				padding:;
+				border:2px solid red;
+				width:10%;
+				height:200px;
+				background-color:Orange;
+}
+
+.right {
+				position:relative ;
+				float:right;
+				margin-top:50px;
+				padding:;
+				border:2px solid red;
+				width:88%; 
+				height:200px;
+				background-color:lightYellow;
+}
+
+#footer {
+				position:relative ;
+				clear:both;
+				margin:5px;
+				padding:5px;
+				border:2px solid red ;
+				width:98.5%;
+				height:20px;
+				background-color:Orange;
+}
